@@ -1,0 +1,17 @@
+algorithme compte
+variables
+	tableau c(10):entier
+	i:entier
+ 	S:reel
+debut
+	S <-- 1000
+	pour i<--- 0 a 19 pas 1 faire
+		S <--- S + S * 0.02
+		c(i) <--- S 
+		
+	fin pour
+	pour i<--- 0 a 9 pas 1 faire
+		ecrire("l'anniversaire",i+1,"la somme",c(i))
+		
+ 	fin pour
+fin
